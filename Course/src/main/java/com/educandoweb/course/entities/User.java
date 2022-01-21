@@ -45,11 +45,11 @@ public class User implements Serializable {
 		this.password = password;
 	}
 
-	public Long getIdInteger() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setIdInteger(Long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
